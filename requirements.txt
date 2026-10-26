@@ -1,0 +1,10 @@
+# 웹 크롤러 v4.0 의존성
+# pip install -r requirements.txt
+
+requests>=2.31.0        # HTTP/HTTPS 요청 처리
+beautifulsoup4>=4.12.0  # HTML 파싱
+lxml>=4.9.0             # 고성능 HTML 파서 (선택)
+urllib3>=2.0.0          # SSL/TLS 처리
+
+# tqdm은 선택사항 (없으면 자체 ProgressBar 사용)
+# tqdm>=4.66.0
